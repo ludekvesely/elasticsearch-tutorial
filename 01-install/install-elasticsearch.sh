@@ -29,10 +29,12 @@ cd ..
 # download end extract kibana
 wget https://artifacts.elastic.co/downloads/kibana/kibana-5.5.1-darwin-x86_64.tar.gz
 tar xzf kibana-5.5.1-darwin-x86_64.tar.gz
+rm -f kibana-5.5.1-darwin-x86_64.tar.gz
 cd kibana-5.5.1-darwin-x86_64
 
 # run kibana
 { bin/kibana & } >/dev/null 2>/dev/null
+cd ..
 
 # === Cerebro ===
 # TODO
