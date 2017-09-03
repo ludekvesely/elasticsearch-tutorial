@@ -1,6 +1,5 @@
 .DS_Store
 /.idea
-01-install/elasticsearch-5.5.1.zip
-01-install/elasticsearch-5.5.1
-01-install/kibana-5.5.1-darwin-x86_64.tar.gz
-01-install/kibana-5.5.1-darwin-x86_64
+01-install/elasticsearch-*
+01-install/kibana-*
+01-install/cerebro-*
