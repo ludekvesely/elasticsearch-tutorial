@@ -3,3 +3,4 @@
 01-install/elasticsearch-*
 01-install/kibana-*
 01-install/cerebro-*
+01-install/logs
