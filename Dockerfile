@@ -4,4 +4,3 @@ USER root
 RUN chown -R elasticsearch:elasticsearch config/*
 USER elasticsearch
 RUN elasticsearch-plugin install analysis-icu
-

@@ -4,8 +4,10 @@ services:
 
   elasticsearch:
     build: .
-    volumes:
-      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    environment:
+      - http.host=0.0.0.0
+      - transport.host=127.0.0.1
+      - xpack.security.enabled=false
     ports:
       - "9200:9200"
     networks:
