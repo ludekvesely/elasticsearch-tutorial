@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:5.6.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.2.3
 COPY hunspell /usr/share/elasticsearch/config/hunspell/
 COPY elasticsearch.yml /usr/share/elasticsearch/config/
 USER root
